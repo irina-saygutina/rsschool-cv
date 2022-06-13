@@ -120,6 +120,51 @@ html {
     text-decoration: none;
 }
 
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: -5px;
+    width: calc(100% - 24px);
+    height: 2px;
+    background-color: #fff;
+    opacity: 0;
+    transition: .5s;
+}
+
 .header {
     background-color: rgb(39, 176, 180);
+}
+
+.footer {
+    background-color: rgb(39, 176, 180);
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url("assets/rs_school_js.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.github {
+    color: #fff;
+    text-decoration: none;
+    line-height: 45px;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
 }
