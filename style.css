@@ -89,8 +89,8 @@ body {
 .section {
     width: calc(50% - 20px);
     padding: 10px;
-    padding-bottom: 35px;
-    border-bottom: 1px solid #672f2f;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #1d7b8b;
 }
 
 .section-education,
@@ -182,7 +182,6 @@ body {
 
 .icon {
     margin: 0;
-    padding: 30;
     list-style-image: url(https://cv-hints.netlify.app/assets/svg/6.svg);
 }
 
