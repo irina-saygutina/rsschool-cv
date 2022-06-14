@@ -1,5 +1,5 @@
 # **Irina Saihutina**
-![My photo](https://github.com/irina-saygutina/rsschool-cv/blob/gh-pages/my%20foto1.jpg?raw=true)
+![My photo](https://github.com/irina-saygutina/rsschool-cv/blob/gh-pages/assets/myfoto1.jpg)
 #### I have a specialized education in IT. I had an internship in my specialty, but did not work. I have been an accountant for 12 years. There are more opportunities in IT. Ready to work remotely or part-time. I am ready to try myself in various projects for free or with minimal payment ####
 
 #### *Contacts*
