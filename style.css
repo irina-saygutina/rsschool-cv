@@ -18,7 +18,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 1.5;
-    color: #4d2323;
+    color: rgb(24, 20, 54);
 }
 
 .container {
@@ -28,7 +28,7 @@ body {
 }
 
 .header {
-    background-color: rgb(39, 176, 180);
+    background-color: rgb(16, 78, 80);
 }
 
 .nav-list {
@@ -43,7 +43,7 @@ body {
     font-size: 20px;
     font-weight: 300;
     line-height: 50px;
-    color: rgb(205, 206, 189);
+    color: rgb(237, 238, 225);
     padding: 0px 12px;
     text-decoration: none;
 }
@@ -53,11 +53,11 @@ body {
     position: absolute;
     left: 12px;
     bottom: -5px;
-    width: calc(100% - 24px);
-    height: 2px;
-    background-color: #fff;
+    width: calc(100% - 25px);
+    height: 3px;
+    background-color: rgb(174, 174, 177);
     opacity: 0;
-    transition: .5s;
+    transition: .3s;
 }
 
 .nav-link:hover::after {
@@ -72,7 +72,7 @@ body {
         width: 0;
     }
     to {
-        width: calc(100% - 24px);
+        width: calc(100% - 25px);
     }
 }
 
@@ -90,7 +90,7 @@ body {
     width: calc(50% - 20px);
     padding: 10px;
     padding-bottom: 15px;
-    border-bottom: 1px solid #1d7b8b;
+    border-bottom: 1px solid rgb(16, 78, 80);
 }
 
 .section-education,
@@ -101,10 +101,10 @@ body {
 .section-title {
     margin-bottom: 20px;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #829985;
+    color: rgb(1, 97, 102);
 }
 
 .section-profile {
@@ -112,7 +112,7 @@ body {
     justify-content: space-around;
     width: 100%;
     padding: 50px 30px 35px;
-    border-bottom: 15px solid rgb(215, 209, 201);
+    border-bottom: 10px solid rgb(181, 202, 204);
 }
 
 .pre {
@@ -133,7 +133,7 @@ body {
     position: relative;
     padding: 0;
     margin-bottom: 20px;
-    color: #4d2323;
+    color: rgb(112, 111, 122);
     font-size: 32px;
     font-weight: 300;
     letter-spacing: 10px;
@@ -149,12 +149,13 @@ body {
     margin-left: -70px;
     width: 140px;
     height: 2px;
-    background-color: #829985;
+    background-color: rgb(16, 78, 80);
+    ;
 }
 
 .section-subtitle {
     margin-top: 20px;
-    color: #5c5c5c;
+    color: rgb(112, 111, 122);
     line-height: 50px;
     font-weight: 300;
     letter-spacing: 2px;
@@ -164,9 +165,9 @@ body {
     width: 300px;
     height: 300px;
     object-fit: cover;
-    box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px;
-    filter: grayscale(0.2) brightness(1.05);
-    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 5px;
+    filter: grayscale(0.3) brightness(1.05);
+    border-radius: 25%;
     transition: all 0.3s ease 0s;
 }
 
@@ -182,7 +183,7 @@ body {
 
 .icon {
     margin: 0;
-    list-style-image: url(https://cv-hints.netlify.app/assets/svg/6.svg);
+    list-style-image: url(assets/6.svg);
 }
 
 .section-item {
@@ -203,11 +204,11 @@ body {
 }
 
 .section-item a:hover {
-    color: #4d2323;
+    color: rgb(24, 20, 54);
 }
 
 .footer {
-    background-color: rgb(39, 176, 180);
+    background-color: rgb(16, 78, 80);
     padding: 20px;
 }
 
@@ -235,7 +236,7 @@ body {
 
 @font-face {
     font-family: Roboto;
-    src: url("assets/fonts/Roboto-Black.ttf");
+    src: url("assets/fonts/Roboto.ttf");
 }
 
 @font-face {
@@ -250,6 +251,12 @@ body {
     font-weight: 300;
 }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url("assets/fonts/Roboto-Black.ttf");
+    font-weight: 500;
+}
+
 @media (max-width: 768px) {
     .section {
         width: 100%;
@@ -261,3 +268,6 @@ body {
         padding: 0 20px;
     }
 }
+
+
+/**adaptation **/
